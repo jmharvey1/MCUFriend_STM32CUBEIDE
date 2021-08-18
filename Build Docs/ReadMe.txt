@@ -13,7 +13,7 @@ In the setup mode, the user can adjust & save the following parameters:
 3. TSF(+/-);  “Tone Scale Factor”; Not Functional in the current version.  
 4. NSF(+/-); “Noise Scale Factor”; speaker dependent; Adjust for best tone detection.
 5. LED(+/-); Set maximum LED brightness.
-6. SMPL(+/-); Sample Frequency; experimental; Manually change the sample value used to calculate the Goertzel tone detection coefficients.
+6. Freq(+/-); Tone detect Frequency; Manually change the tone detect center frequency; Use only when in the "FREQ LOCKED" Tone mode.
 7. Squelch Mode (NOISE SQLCH / MAN SQLCH); no explanation needed
 8. Factory Vals; return decoder to sketch default value
 9. Debug Mode (OFF / Plot / Decode); When not OFF, use Arduino IDE plot /serial monitor tools

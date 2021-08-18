@@ -12,6 +12,7 @@ Wiring is essentially the same as the Blue Pill Decoder, with the following exce
 2. The Key interrupt jumper is now on PB12 to PB13
 3. Mic Bd output is connected to PB1
 4. LED Tuning input pin is connected to PB15
-
+20210818:
+Decoder update - fixes issues related to USB serial print degugger output
 The STMCUBEIDE can be downloaded at this site:
 		https://www.st.com/en/development-tools/stm32cubeide.html
