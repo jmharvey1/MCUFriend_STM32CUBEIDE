@@ -12,6 +12,8 @@ Wiring is essentially the same as the Blue Pill Decoder, with the following exce
 2. The Key interrupt jumper is now on PB12 to PB13
 3. Mic Bd output is connected to PB1
 4. LED Tuning input pin is connected to PB15
+20210821:
+Updated STM32_TouchScreen_Calbrnative.cpp in MCUFriendsDisplay project. Rewrote pin pair decision code
 20210820:
 Updated both the Decoder & the MCUFriendsDisplay projects. Minor change to the MCUFriendsKBV library to increase the timing delay on the "reset()". Found some display types would fail to initialize w/o this increased interval   
 20210819:
