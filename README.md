@@ -5,6 +5,12 @@ The original upload consists of the MCUFriend_KBV and the TouchScreen files plus
 Also included are 4 "demo" programs that should work with the f411 Black Pill and a MCFriend Compatible 3.5 TFT touch screen display.
 Any other combination of hardware, will likely require modification to one or more files contained here.
 These files are believed to be "open source" files, and are not to be used beyond what the their oringinal authors intended.
+
+20211104
+Added BlackPill CWencoder Project to repository
+For project details, see YouTube Video:  
+https://youtu.be/_ukzftj2KGk
+
 20210711
 Added blackpill CWdecoder project Zip file. 
 Wiring is essentially the same as the Blue Pill Decoder, with the following exceptions: 
