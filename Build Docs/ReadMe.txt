@@ -1,10 +1,14 @@
-The Files found in this folder currently are specific to the F411CWDecoder project.
-If your interested in the MCUFriends code collection/project, the install steps would/will be essentially the same.
-And the Black Pill to Display connections/wiring are also the same as used in the decoder.
+Updated: 20211105
 
-The Files found in this folder currently are specific to the F411CWDecoder project.
-If your interested in the MCUFriends code collection/project, the install steps would/will be essentially the same.
-And the Black Pill to Display connections/wiring are also the same as used in the decoder.
+The Files found in this folder are for the F411CWDecoder & KeyBrd Encoder projects.
+
+The the PDF file "CubeIDE_Programming_StepR2A.pdf" was created specifically for the CW decoder project;
+However, if your interested in the MCUFriends code collection/project, or the KeyBrd Encoder project, these install steps would/will be essentially the same.
+
+The Black Pill to TFT Display connections/wiring are the same for all projects.
+However, there is a separate connection wiring diagram (MAX3421_BlackPillConnDiag.pdf) for the BlackPill to MAX3421 Mini Breakout board.
+This 2nd Diagram overides any overlapping connections shown in the 1st (or base) Diagram.
+
 
 The following operational notes are related to the Black Pill CW decoder only:
 
