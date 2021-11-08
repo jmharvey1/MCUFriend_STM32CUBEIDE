@@ -7,7 +7,7 @@ Any other combination of hardware, will likely require modification to one or mo
 These files are believed to be "open source" files, and are not to be used beyond what the their oringinal authors intended.
 
 20211104
-Added BlackPill CWencoder Project to repository
+Added BlackPill CW Keyboard Encoder Project to repository
 For project details, see YouTube Video:  
 https://youtu.be/ECdV10DOBYY
 
