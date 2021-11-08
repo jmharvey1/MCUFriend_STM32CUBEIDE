@@ -1,4 +1,4 @@
-Updated: 20211105
+﻿Updated: 20211108
 
 The Files found in this folder are for the F411CWDecoder & KeyBrd Encoder projects.
 
@@ -9,7 +9,7 @@ The Black Pill to TFT Display connections/wiring are the same for all projects.
 However, there is a separate connection wiring diagram (MAX3421_BlackPillConnDiag.pdf) for the BlackPill to MAX3421 Mini Breakout board.
 This 2nd Diagram overides any overlapping connections shown in the 1st (or base) Diagram.
 
-
+***********************************************************************************
 The following operational notes are related to the Black Pill CW decoder only:
 
 There is a “setup” mode that can be invoked with a “long press” of the blue “Clear” button.
@@ -55,4 +55,21 @@ Note, this same method of linking your black pill decoder to your computer can a
 
 Finally, if you prefer to construct this decoder using a PCB mother board, rather than the jumper method shown in the video, contact W8DU (via QRZ.com) for board & pricing.
 
+***********************************************************************************
+Key Board Notes:
+Special Keys & their functions:
+Keys that send special Morse Characters
+1. “=”   <BT>
+2. “+”	<KN>
+3. ”>”	<AR>
+4. ”<”	<AS>
+5. ”%”	<SK>
+6. All other unassigned keys (i.e. “{“, “]”,…) send 6 dits, CW error code
 
+Special Functions:
+1. cntrl+T	Generates continuous key down state. Press “cntrl+T” again (or another key) to stop.
+2. “Enter”	One button press to send your preloaded CallSign.
+3. “delete” Back space, to delete unsent buffered code.
+4. F12		Alternate action; Allows text to be typed and not sent. Press again, and normal sending resumes. (In hold mode, lower left box is yellow)
+5. F1		Store text (When active, lower left box is White). Up to 20 characters (no spaces) can be stored to be sent later. (Space bar, auto exit F1 store mode, or press F1 again to stop store) 
+6. Lshift+Enter” Send F1 stored text. 	
