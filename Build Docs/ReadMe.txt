@@ -1,9 +1,9 @@
 ﻿Updated: 20211108
 
-The Files found in this folder are for the F411CWDecoder & KeyBrd Encoder projects.
+The Files found in this folder are for the F411CWDecoder & KeyBoard Encoder projects.
 
 The the PDF file "CubeIDE_Programming_StepR2A.pdf" was created specifically for the CW decoder project;
-However, if your interested in the MCUFriends code collection/project, or the KeyBrd Encoder project, these install steps would/will be essentially the same.
+However, if your interested in the MCUFriends code collection/project, or the KeyBoard Encoder project, these install steps would/will be essentially the same.
 
 The Black Pill to TFT Display connections/wiring are the same for all projects.
 However, there is a separate connection wiring diagram (MAX3421_BlackPillConnDiag.pdf) for the BlackPill to MAX3421 Mini Breakout board.
@@ -56,7 +56,7 @@ Note, this same method of linking your black pill decoder to your computer can a
 Finally, if you prefer to construct this decoder using a PCB mother board, rather than the jumper method shown in the video, contact W8DU (via QRZ.com) for board & pricing.
 
 ***********************************************************************************
-Key Board Notes:
+KeyBoard Encoder Notes:
 Special Keys & their functions:
 Keys that send special Morse Characters
 1. “=”   <BT>
