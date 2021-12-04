@@ -72,5 +72,6 @@ Special Functions:
 3. “delete” Back space, to delete unsent buffered code.
 4. F12		Alternate action; Allows text to be typed and not sent. Press again, and normal sending resumes. (In hold mode, lower left box is yellow)
 5. F1		Store text (When active, lower left box is White). Up to 20 characters (no spaces) can be stored to be sent later. (Space bar, auto exit F1 store mode, or press F1 again to stop store) 
-6. Lshift+Enter” Send F1 stored text.
-7. "Esc"   Abort outgoing text 	
+6. Lshift+Enter” Send "F1" stored text plus Your call sign.
+7. Cntrl+Enter” Send "F1" stored text.
+8. "Esc"   Abort outgoing text 	
