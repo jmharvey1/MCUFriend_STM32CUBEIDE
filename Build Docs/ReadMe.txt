@@ -7,7 +7,7 @@ However, if your interested in the MCUFriends code collection/project, or the Ke
 
 The Black Pill to TFT Display connections/wiring are the same for all projects.
 However, there is a separate connection wiring diagram (MAX3421_BlackPillConnDiag.pdf) for the BlackPill to MAX3421 Mini Breakout board.
-This 2nd Diagram overides any overlapping connections shown in the 1st (or base) Diagram.
+This 2nd Diagram overides any overlapping connections shown in the 1st (or base) Diagram. Additionally, see "BlackPillWirelessCWKeyBrdSchematic.pdf"  for a schematic view of the Keyboard encoder project. It can be used to further clarify how this project can be wired up.
 
 ***********************************************************************************
 The following operational notes are related to the Black Pill CW decoder only:
@@ -70,8 +70,8 @@ Special Functions:
 1. cntrl+T	Generates continuous key down state. Press “cntrl+T” again (or another key) to stop.
 2. “Enter”	One button press to send your preloaded CallSign.
 3. “delete” Back space, to delete unsent buffered code.
-4. F12		Alternate action; Allows text to be typed and not sent. Press again, and normal sending resumes. (In hold mode, lower left box is yellow)
-5. F1		Store text (When active, lower left box is White). Up to 20 characters (no spaces) can be stored to be sent later. (Space bar, auto exit F1 store mode, or press F1 again to stop store) 
-6. Lshift+Enter” Send "F1" stored text plus Your call sign.
-7. Cntrl+Enter” Send "F1" stored text.
+4. Right Arrow		Alternate action; Allows text to be typed, and not sent. Press again, and normal sending resumes. (In hold mode, lower left box is yellow)
+5. Left Arrow		Store text (When active, lower left box is White). Up to 20 characters (no spaces) can be stored to be sent later. (Space bar, auto exit F1 store mode, or press F1 again to stop store) 
+6. Lshift+Enter” Send "Left Arrow" stored text plus Your call sign.
+7. Cntrl+Enter” Send "Left Arrow" stored text.
 8. "Esc"   Abort outgoing text 	
