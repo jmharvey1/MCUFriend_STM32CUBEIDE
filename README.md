@@ -6,6 +6,12 @@ Also included are 4 "demo" programs that should work with the f411 Black Pill an
 Any other combination of hardware, will likely require modification to one or more files contained here.
 These files are believed to be "open source" files, and are not to be used beyond what the their oringinal authors intended.
 
+20220905
+For those who don't wnat to compile the source code, added binary files for the ham radio projects, SDR, CW Decoder, & BT CWkeyboard.
+The Binary files can be flashed to the F411 Blackpill using STMs CubeProgrammer, found at the Web site shown below.
+Updated all hamradio project files.
+Changes too numerous to detail here. See individual source files for change detail. 
+
 20211104
 Added BlackPill CW Keyboard Encoder Project to repository
 For project details, see YouTube Video:  
