@@ -1,6 +1,6 @@
 ﻿Updated: 20211108
 
-The Files found in this folder are for the F411CWDecoder & KeyBoard Encoder projects.
+The Files found in this repository are for the F411CWDecoder & KeyBoard Encoder projects.
 
 The the PDF file "CubeIDE_Programming_StepR2A.pdf" was created specifically for the CW decoder project;
 However, if your interested in the MCUFriends code collection/project, or the KeyBoard Encoder project, these install steps would/will be essentially the same.
@@ -10,38 +10,7 @@ However, there is a separate connection wiring diagram (MAX3421_BlackPillConnDia
 This 2nd Diagram overides any overlapping connections shown in the 1st (or base) Diagram. Additionally, see "BlackPillWirelessCWKeyBrdSchematic.pdf"  for a schematic view of the Keyboard encoder project. It can be used to further clarify how this project can be wired up.
 
 ***********************************************************************************
-The following operational notes are related to the Black Pill CW decoder only:
 
-There is a “setup” mode that can be invoked with a “long press” of the blue “Clear” button.
-
-In the setup mode, the user can adjust, & save, the following parameters:
-
-1. Bias (+/-) ; value to subtract from ADC sample to remove the microphone's DC offset
-2. MSQL(+/-); Squelch value to use when tone detector is operating in MAN SQLCH mode 
-3. TSF(+/-);  “Tone Scale Factor”; Not Functional in the current version.  
-4. NSF(+/-); “Noise Scale Factor”; speaker dependent; Adjust for best tone detection.
-5. LED(+/-); Sets LED’s maximum brightness.
-6. Freq(+/-); Tone detect Frequency; Manually change the tone detect center frequency; Use only when in the "FREQ LOCKED" Tone mode.
-7. Squelch Mode (NOISE SQLCH / MAN SQLCH); no explanation needed
-8. Factory Vals; return decoder to sketch’s default values.
-9. Debug Mode (OFF / Plot / Decode); When not OFF, use the Arduino IDE plot /serial monitor tools, via USB serial connection.
-10. Tone mode (AUTO Tune / FREQ LOCKED)
-The setup screen has two additional buttons:
-1. Exit (leave the Setup mode; return to Decode mode)
-2. Save (Store the current setting to Flash memory)
-Aug 31 2021:
-On the bottom row of buttons, there is a new orange button (I'm calling it the program button, or "mode" button, and its default state is "CW". It cycles through 3 other values (FFT, Scope, & LED). This represents the three other programs that can/will run when the Yellow "Exit" button is pressed. They perform no useful task, but demos with just software changes, how differently the same collection of hardware can behave. When tired of watching one of the alternate views, touch the display. It will revert back to the setup screen.
-
-When the Decoder is running in decode mode, the lower left segment of the display is touch sensitive
-and will display one of three attributes:
-1. current Words per Minute / Dot to Dash ratio
-2. current Average Dot / Dash / Space interval (milliseconds)
-3. current tone filter center frequency (hertz)
-When the Decoder is running in decode mode, the Green button supports 4 modes
-1. Norm; “Normal”; should work for 90% of the messages decoded
-2. Bug1; Use with senders that exaggerate the spacing between dashes in the same letter
-3. Bug2; Same as “Bug1” but using a different strategy to recover/decode the letter
-4. Bug3; Similar to “Bug2” but uses different timing percentages to recover/decode a character.
 And finally the lower right segment of the display has a “Slow”/”Fast”touch Button.
 In the “Slow” mode, tone samples are processed at 8ms intervals, and in the “Fast” mode processing is done every 4ms. Normally, for well sent code at <30wpm, the slow mode will yield better results. While for faster WPM rates, or irregular symbol timing, the “fast” mode can/will yield a more accurate parsing.
 
@@ -55,23 +24,3 @@ Note, this same method of linking your black pill decoder to your computer can a
 
 Finally, if you prefer to construct this decoder using a PCB mother board, rather than the jumper method shown in the video, contact W8DU (via QRZ.com) for board & pricing.
 
-***********************************************************************************
-KeyBoard Encoder Notes:
-Special Keys & their functions:
-Keys that send special Morse Characters
-1. “=”   <BT>
-2. “+”	<KN>
-3. ”>”	<AR>
-4. ”<”	<AS>
-5. ”%”	<SK>
-6. All other unassigned keys (i.e. “{“, “]”,…) send 6 dits, CW error code
-
-Special Functions:
-1. cntrl+T	Generates continuous key down state. Press “cntrl+T” again (or another key) to stop.
-2. “Enter”	One button press to send your preloaded CallSign.
-3. “delete” Back space, to delete unsent buffered code.
-4. Right Arrow		Alternate action; Allows text to be typed, and not sent. Press again, and normal sending resumes. (In hold mode, lower left box is yellow)
-5. Left Arrow		Store text (When active, lower left box is White). Up to 20 characters (no spaces) can be stored to be sent later. (Space bar, auto exit F1 store mode, or press F1 again to stop store) 
-6. Lshift+Enter” Send "Left Arrow" stored text plus Your call sign.
-7. Cntrl+Enter” Send "Left Arrow" stored text.
-8. "Esc"   Abort outgoing text 	
