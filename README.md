@@ -6,7 +6,7 @@ Also included are 4 "demo" programs that should work with the f411 Black Pill an
 Any other combination of hardware, will likely require modification to one or more files contained here.
 These files are believed to be "open source" files, and are not to be used beyond what the their oringinal authors intended.
 
-20231017
+20231027
 The BlackPillSDR_DSP folder is a CubeMX project built around an stm32F411 "blackpill" board, a 240x320 TFT touchscreen dispplay, and an I2S soundcard. 
 The folder contains both a .bin file, as well as the source code project files. Also included is a PCB layout to mount the project parts. 
 This unit started out as a fairly simple DSP demodulator for a separate direct conversion Tayloe mixer. But today includes some features found in modern transceivers. 
